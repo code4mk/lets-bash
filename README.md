@@ -1,5 +1,5 @@
 
- * visit modern for modern view [code4mk.org/linux4you/bash](https://code4mk.org/linux4you/bash)
+ * visit for modern view [code4mk.org/linux4you/bash](https://code4mk.org/linux4you/bash)
 ---
 # bash
 
@@ -60,11 +60,11 @@ echo ${name:="kamal"}
 # string
 
 ```bash
-status="Mostafa Kamal   is    a     code artisat"
+status="Mostafa Kamal   is    a     code artist"
 echo $status
-# Mostafa Kamal is a code artisat
+# Mostafa Kamal is a code artist
 echo "$status"
-# Mostafa Kamal   is    a     code artisat
+# Mostafa Kamal   is    a     code artist
 ```
 
 
@@ -141,7 +141,7 @@ echo ${users[@]}
 
 # condition
 
-* single squre bracet `[condition]` or double squre bracket `[[condtion]]`
+* single squre bracket `[condition]` or double squre bracket `[[condtion]]`
 * ubuntu system basicaly not support `[[ not support ]]`
   * access `[[ double]]` command `sudo bash myfile.sh`
   * On Ubuntu systems, `/bin/sh` is `dash`, not `bash`, and `dash` does `not support` the `double bracket`
