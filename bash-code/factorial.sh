@@ -1,3 +1,4 @@
+# <= 64!
 read -p "your number `echo $'\n>> '`" num
 fac=1
 for (( i=1 ; i <= $num ; i++ )); do
