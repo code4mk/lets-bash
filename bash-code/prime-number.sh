@@ -1,11 +1,12 @@
-
+# time prime_number
+read -p "your number `echo $'\n>> '`" num
 check=0
 lists=()
 lists[0]=1
-for (( i = 2; i <= 50; i++ )); do
+for (( i = 2; i <= $num; i++ )); do
   #statements
   check=0
-  for (( j = 2; j <= 50; j++ )); do
+  for (( j = 2; j <= $num; j++ )); do
     #statements
     if [ $(( i % j )) -eq 0 ]; then
       if [ $i -ne $j ]; then
